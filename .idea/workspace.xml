@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="997c6e16-84cd-4f34-91d4-81a0082a77e5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/templates/blog/create.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/packages/twig.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/packages/twig.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Controller/BlogController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/BlogController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/base.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/blog/create.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/blog/create.html.twig" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -32,7 +29,7 @@
           <entry key="Twig" value="1" />
           <entry key="env" value="2" />
           <entry key="log" value="1" />
-          <entry key="php" value="13" />
+          <entry key="php" value="14" />
           <entry key="twig" value="6" />
           <entry key="yaml" value="5" />
         </counts>
@@ -41,7 +38,7 @@
         <counts>
           <entry key=".env file" value="2" />
           <entry key="Log" value="1" />
-          <entry key="PHP" value="13" />
+          <entry key="PHP" value="14" />
           <entry key="Twig" value="7" />
           <entry key="YAML" value="5" />
         </counts>
@@ -49,18 +46,18 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="env" value="82" />
-          <entry key="php" value="1414" />
-          <entry key="twig" value="1364" />
-          <entry key="txt" value="153" />
+          <entry key="php" value="1749" />
+          <entry key="twig" value="1418" />
+          <entry key="txt" value="265" />
           <entry key="yaml" value="85" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key=".env file" value="82" />
-          <entry key="PHP" value="1414" />
-          <entry key="PLAIN_TEXT" value="153" />
-          <entry key="Twig" value="1364" />
+          <entry key="PHP" value="1749" />
+          <entry key="PLAIN_TEXT" value="265" />
+          <entry key="Twig" value="1418" />
           <entry key="YAML" value="85" />
         </counts>
       </usages-collector>
@@ -99,17 +96,26 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Controller/BlogController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="162">
-              <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+            <state relative-caret-position="60">
+              <caret line="8" column="65" selection-start-line="8" selection-start-column="65" selection-end-line="8" selection-end-column="65" />
               <folding>
                 <element signature="e#625#647#0#PHP" expanded="true" />
                 <element signature="e#867#888#1#PHP" expanded="true" />
                 <element signature="e#1335#1358#0#PHP" expanded="true" />
                 <element signature="e#1573#1594#0#PHP" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Form/ArticleType.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="351">
+              <caret line="16" column="26" selection-start-line="16" selection-start-column="26" selection-end-line="16" selection-end-column="26" />
             </state>
           </provider>
         </entry>
@@ -126,8 +132,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/blog/create.html.twig">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="243">
-              <caret line="9" column="72" selection-start-line="9" selection-start-column="72" selection-end-line="9" selection-end-column="72" />
+            <state relative-caret-position="405">
+              <caret line="15" column="16" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="16" />
               <folding>
                 <element signature="e#12#26#0#Twig" expanded="true" />
                 <element signature="e#58#86#0#Twig" expanded="true" />
@@ -169,15 +175,6 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config/packages/doctrine.yaml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="10" column="20" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
-            </state>
-          </provider>
-        </entry>
-      </file>
     </leaf>
   </component>
   <component name="Git.Settings">
@@ -196,6 +193,7 @@
         <option value="$PROJECT_DIR$/config/packages/twig.yaml" />
         <option value="$PROJECT_DIR$/templates/blog/create.html.twig" />
         <option value="$PROJECT_DIR$/src/Controller/BlogController.php" />
+        <option value="$PROJECT_DIR$/src/Form/ArticleType.php" />
       </list>
     </option>
   </component>
@@ -330,34 +328,13 @@
             <path>
               <item name="symfony4" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
               <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
-              <item name="config" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="symfony4" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
-              <item name="config" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="packages" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="symfony4" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
               <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
             </path>
             <path>
               <item name="symfony4" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
               <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
-              <item name="templates" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="symfony4" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
-              <item name="templates" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="blog" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="symfony4" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
-              <item name="var" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="Form" type="9f88c78c:ScopeViewTreeModel$FileNode" />
             </path>
           </expand>
           <select />
@@ -394,7 +371,7 @@
       <option name="presentableId" value="Default" />
       <updated>1540806933891</updated>
       <workItem from="1540806935103" duration="53000" />
-      <workItem from="1540807319060" duration="12710000" />
+      <workItem from="1540807319060" duration="14307000" />
     </task>
     <task id="LOCAL-00001" summary="creation de quelques vue pour le blog du tuto youtube https://www.youtube.com/watch?v=UTusmVpwJXo  &#10;utilisation de doctrine avec la creation de ma bdd">
       <created>1540816273859</created>
@@ -417,11 +394,18 @@
       <option name="project" value="LOCAL" />
       <updated>1540825058628</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Mise a jour du controller avec le formulaire de creation d'article + creation de la vue pour ce formulaire">
+      <created>1540832183366</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1540832183366</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12763000" />
+    <option name="totallyTimeSpent" value="14360000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -466,7 +450,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="creation de quelques vue pour le blog du tuto youtube https://www.youtube.com/watch?v=UTusmVpwJXo  &#10;utilisation de doctrine avec la creation de ma bdd" />
     <MESSAGE value="utilisation des fixtures" />
-    <option name="LAST_COMMIT_MESSAGE" value="utilisation des fixtures" />
+    <MESSAGE value="Mise a jour du controller avec le formulaire de creation d'article + creation de la vue pour ce formulaire" />
+    <option name="LAST_COMMIT_MESSAGE" value="Mise a jour du controller avec le formulaire de creation d'article + creation de la vue pour ce formulaire" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/config/routes.yaml">
@@ -610,8 +595,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/blog/create.html.twig">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="9" column="72" selection-start-line="9" selection-start-column="72" selection-end-line="9" selection-end-column="72" />
+        <state relative-caret-position="405">
+          <caret line="15" column="16" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="16" />
           <folding>
             <element signature="e#12#26#0#Twig" expanded="true" />
             <element signature="e#58#86#0#Twig" expanded="true" />
@@ -621,14 +606,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Controller/BlogController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+        <state relative-caret-position="60">
+          <caret line="8" column="65" selection-start-line="8" selection-start-column="65" selection-end-line="8" selection-end-column="65" />
           <folding>
             <element signature="e#625#647#0#PHP" expanded="true" />
             <element signature="e#867#888#1#PHP" expanded="true" />
             <element signature="e#1335#1358#0#PHP" expanded="true" />
             <element signature="e#1573#1594#0#PHP" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Form/ArticleType.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="351">
+          <caret line="16" column="26" selection-start-line="16" selection-start-column="26" selection-end-line="16" selection-end-column="26" />
         </state>
       </provider>
     </entry>
