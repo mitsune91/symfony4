@@ -1,0 +1,50 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Hello {{ controller_name }}!{% endblock %}
+
+{% block body %}
+	<section class="articles">
+		<article>
+			<h2>titre de l'article</h2>
+			<div class="metadata">Ecrit le 10/05/2018 à 19h00 dans la categorie Politique</div>
+			<div class="content"><img src="http://placehold.it/350x150" alt="">
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab aut beatae et expedita ipsam iure
+					nesciunt,
+					reiciendis soluta. Accusantium amet architecto, corporis doloremque eum illum libero necessitatibus
+					quaerat suscipit ullam.</p>
+				<p>Accusantium animi doloremque enim harum ipsam iste libero numquam. Labore quis ut voluptates. Autem,
+					eveniet, optio. Aliquid expedita facere, iste laborum molestiae nam necessitatibus nesciunt quisquam
+					soluta totam, ut voluptas!</p>
+				<a href="{{ path('blog_show') }}" class="btn btn-primary">Lire la suite</a></div>
+		</article>
+		<article>
+			<h2>titre de l'article</h2>
+			<div class="metadata">Ecrit le 10/05/2018 à 19h00 dans la categorie Politique</div>
+			<div class="content"><img src="http://placehold.it/350x150" alt="">
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores beatae consectetur, deserunt est
+					et
+					id inventore ipsam laboriosam, maxime minima, mollitia neque numquam praesentium quaerat quod
+					similique
+					totam ut voluptates!</p>
+				<p>Aspernatur autem delectus eum explicabo facere facilis illum impedit ipsam, ipsum maiores obcaecati
+					officia, optio perspiciatis quidem repellat similique sit soluta totam vero voluptatibus. Expedita
+					qui
+					saepe sequi vitae voluptates.</p>
+				<a href="{{ path('blog_show') }}" class="btn btn-primary">Lire la suite</a></div>
+		</article>
+		<article>
+			<h2>titre de l'article</h2>
+			<div class="metadata">Ecrit le 10/05/2018 à 19h00 dans la categorie Politique</div>
+			<div class="content"><img src="http://placehold.it/350x150" alt="">
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi autem debitis dolores eveniet quaerat
+					rerum saepe ullam voluptatibus. Assumenda consectetur consequatur cumque, excepturi illum libero
+					magni
+					numquam officiis quaerat reprehenderit!</p>
+				<p>Blanditiis dolore dolorum eaque eligendi, eum eveniet facere fugiat iure laboriosam perspiciatis
+					possimus
+					quisquam recusandae sequi temporibus vitae! Ad delectus earum inventore nihil praesentium quia quos
+					saepe temporibus. Cum, iste.</p>
+				<a href="{{ path('blog_show') }}" class="btn btn-primary">Lire la suite</a></div>
+		</article>
+	</section>
+{% endblock %}
